@@ -27,7 +27,7 @@ def price_to_decimal(price):
         price = re.sub(',','',price)
         return int(price)
 
-root = '/Users/varshathanooj/Desktop/magicbricks'
+root = '/Users/varshathanooj/Documents/GitHub/Flatopedia/magicbricks'
 
 class MagicBricks(scrapy.Spider):
     name = "parser_projects"
